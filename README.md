@@ -66,11 +66,11 @@
 
 # 截图概览
 
-![API测试页面](readme/img/1.API_Detail.png)
-![API文档页面](readme/img/2.API_DOC_Detail.png)
-![API文档分享页面](readme/img/3.Share_API_DOC_Detail.png)
-![定时任务调度中心](readme/img/4.scheduler.png)
-![群聊与AI](readme/img/5.group_ai_chat.png)
+![API测试页面](img/request_detail.png)
+![API文档页面](img/api_doc_detail.png)
+![定时任务调度中心](img/task_handler_detail.png)
+![群聊](img/chat_detail.png)
+![设置与AI](img/setting_ai_detail.png)
 
 # 部署
 
@@ -115,4 +115,4 @@ java -jar .\scmp.jar --db.type=sqlit --sqlit.path=./sqlit-db.db --project.locati
 
 # 感谢打赏
 
-![输入图片说明](readme/img/PayCode.png)
+![输入图片说明](img/PayCode.png)
