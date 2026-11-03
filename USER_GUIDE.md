@@ -1,4 +1,9 @@
-<div class='title'>NBA-API 使用手册（完整版）</div>
+<div class='title'>牛B啊(NBA)-API 使用手册（完整版）</div>
+
+# 仓库地址
+    
+    https://gitee.com/fusheng_zhang/API-scmp/
+    https://github.com/fushengruomengzhang/API-scmp/
 
 > 浏览器端团队 API 平台：**测接口、写文档、定时调度、AI助手、群聊** 一体。  
 > 左侧帮助目录与壳层侧栏同序：API → Swagger → 组合文档 → 定时 → **AI助手** → **群聊** → **配置** → **使用帮助**；底栏还有 **数据统计**。
