@@ -6,14 +6,14 @@
 
 主要能力：
 
-- **API 管理**：HTTP / SSE / WebSocket、RESTful、JSON5、脚本预处理（`getVersion` / `buildParam` / `buildMessage`）、执行 N 次（「结果 N」）、顺序/并行执行、版本快照、分享；Fetch 导入与 Java（Swagger 注解）转字段文档
+- **API 管理**：HTTP / SSE / WebSocket、RESTful、JSON5、脚本预处理（`getVersion` / `buildHeader` / `buildParam` / `buildMessage`）、执行 N 次（「结果 N」，每次执行落到结果1）、顺序/并行执行、版本快照、分享；Fetch 导入与 Java（Swagger 注解）转字段文档
 - **Swagger 管理**：填 OpenAPI / docs 地址联调，不写入 API 库
-- **远程 / 本地双库**：远程 API 团队共享；本地 API（橘黄）仅本机；「自动启用插件」可从远程页面测本机 localhost（HTTP）；插件请求头可按域名主机套用
+- **远程 / 本地双库**：远程 API 团队共享；本地 API（橘黄）仅本机；「自动启用插件」可从远程页面测本机 localhost（HTTP）；插件请求头可按域名主机勾选并记住
 - **组合文档**：多 API 业务流程说明、协同编辑、分享 / 下载
 - **定时任务**：CRON / RRULE / 时间戳，直接关联 API 巡检
 - **AI助手**：侧栏机器人抽屉本机私聊；DeepSeek / 千问 / 千帆 / 本地模型；密钥仅存本机
 - **群聊**：在线群聊；群内 `@AI助手`、本机会话、发送到群。无离线消息补传（错过即丢）
-- **配置**：用户名与角色、AI 信息、全局 Header、插件请求头、远程/本地域名、插件管理（下载 / 查看脚本 / 自动启用）、自动保存、暗色模式
+- **配置**：用户名与角色、AI 信息、全局 Header、插件请求头、执行 N 次、请求超时（秒；空为不限时；SSE / WS 不按此项）、远程/本地域名、插件管理（下载 / 查看脚本 / 自动启用）、自动保存、暗色模式
 - **数据统计**：API / 组合文档近 30 天每日新增柱状图（需远程服务）
 
 适合中小团队联调、文档沉淀与轻量在线协作。详细说明见 [README.md](README.md) 与 [使用手册 USER_GUIDE.md](USER_GUIDE.md)。
