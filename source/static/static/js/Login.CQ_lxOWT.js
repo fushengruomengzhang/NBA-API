@@ -1,0 +1,1 @@
+import{B as e}from"./index.BZhtv4P6.js";var t={name:`Login`,components:{},setup(){return{}},emits:[],props:{},data(){return{}},computed:{},watch:{},created(){},mounted(){},methods:{}};function n(e,t,n,r,i,a){return null}var r=e(t,[[`render`,n]]);export{r as default};

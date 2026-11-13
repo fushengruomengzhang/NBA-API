@@ -1,0 +1,1 @@
+var e=class{constructor(){this.fileName=void 0,this.percentage=0,this.blobUrl=void 0}download(e,t,n){n(Error(`下载方法未实现`))}cancel(){throw Error(`取消下载未实现`)}},t=class{upload(e){return Promise.reject(Error(`上传方法未实现`))}uploadImgCompress(e,t){return Promise.reject(Error(`上传图片未实现`))}};export{t as n,e as t};
